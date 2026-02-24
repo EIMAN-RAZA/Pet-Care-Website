@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PetCare | Contact Us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-dark text-light">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black shadow">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo.png" alt="PetCare Logo" width="40" class="me-2">
+        PetCare
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="adopt.html" class="nav-link">Adopt</a></li>
+          <li class="nav-item"><a href="care.html" class="nav-link">Care Guide</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link active text-primary">Contact</a></li>
+          <li class="nav-item"><a href="login.html" class="nav-link">Login</a></li>
+          <li class="nav-item">
+            <a href="register.html" class="nav-link btn btn-primary text-light px-3 py-1 ms-2">Register</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contact Section -->
+  <section class="contact-section py-5">
+  <div class="container">
+    <h2 class="text-center text-warning mb-4">Get in Touch</h2>
+    <p class="text-center text-secondary mb-5">
+      We’d love to hear from you — whether it’s a question, feedback, or just a hello 🐾
+    </p>
+
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card bg-black border-0 shadow-lg p-4 rounded-4">
+          <form id="contactForm">
+            <div class="mb-3">
+              <label class="form-label text-light">Your Name</label>
+              <input type="text" class="form-control bg-dark text-light border-0" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label text-light">Email</label>
+              <input type="email" class="form-control bg-dark text-light border-0" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label text-light">Your Message</label>
+              <textarea class="form-control bg-dark text-light border-0" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-warning w-100 mt-3">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="text-center py-4 border-top border-secondary">
+  <p class="text-secondary mb-0">© 2025 PetCare | By Eiman | All Rights Reserved ✔</p>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/validation.js"></script>
+</body>
+</html>
