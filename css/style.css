@@ -1,0 +1,82 @@
+body {
+  background-color: #121212;
+  color: #eaeaea;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+  height: 80vh;
+  background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(20,20,20,0.8)), url('../images/main1.png') center/cover no-repeat;
+}
+
+.card {
+  border: none;
+  transition: all 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.1);
+}
+
+.btn-warning {
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #0f0f0f;
+}
+
+img {
+  border-radius: 10px;
+}
+.nav-link:hover {
+  color: #0d6efd !important;
+  transition: 0.3s;
+}
+
+.navbar .btn-primary {
+  background-color: #0d6efd;
+  border: none;
+  transition: 0.3s;
+}
+
+.navbar .btn-primary:hover {
+  background-color: #0b5ed7;
+}
+.nav-link {
+  color: #ddd !important;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #0d6efd !important;
+}
+
+.navbar .btn-primary {
+  background-color: #0d6efd;
+  border: none;
+}
+
+.navbar .btn-primary:hover {
+  background-color: #0b5ed7;
+}
+/* 🔥 Improve form input visibility on dark background */
+input.form-control.bg-dark {
+  color: #f8f9fa !important; /* bright text */
+  background-color: #1a1a1a !important; /* dark but readable bg */
+  border: 1px solid #444 !important;
+}
+
+input.form-control.bg-dark:focus {
+  border-color: #ffc107 !important; /* yellow highlight when focused */
+  box-shadow: 0 0 8px rgba(255, 193, 7, 0.5);
+}
+.contact-section .card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-section .card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 20px rgba(255, 193, 7, 0.4);
+}
